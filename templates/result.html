@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analysis Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <div class="container">
+    <h2>🔍 Skill Gap Analysis for {{ job }}</h2>
+    <p><strong>Total Applicant Score (TAS):</strong> {{ tas_score }}%</p>
+    {% if tas_score < 50 %}
+  <p style="color: red;"><strong>Tip:</strong> Consider improving your resume by adding the missing skills or taking the suggested courses above.</p>
+{% elif tas_score < 80 %}
+  <p style="color: orange;"><strong>Almost there!</strong> A few more skills and you’ll be good to go.</p>
+{% else %}
+  <p style="color: green;"><strong>Well done!</strong> Your resume is a great match for this job.</p>
+{% endif %}
+
+
+<h2>Skill Gap Graph</h2>
+<img src="{{ pie_chart_url }}" alt="Skill Gap Graph" style="max-width: 400px; height: auto;">
+
+
+    <h3>✅ Matched Skills:</h3>
+    <ul>
+        {% for skill in matched %}
+            <li>{{ skill }}</li>
+        {% endfor %}
+    </ul>
+
+    <h3>❌ Missing Skills:</h3>
+    <ul>
+        {% for skill in missing %}
+            <li>{{ skill }}</li>
+        {% endfor %}
+    </ul>
+
+    <h3>📚 Recommended Courses</h3>
+{% if recommendations %}
+  <ul>
+    {% for skill, link in recommendations.items() %}
+      <li><strong>{{ skill }}:</strong> <a href="{{ link }}" target="_blank">{{ link }}</a></li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>No course recommendations needed. Great job!</p>
+{% endif %}
+
+<h3>📄 Resume Quality Score: {{ resume_score }}/100</h3>
+
+{% if resume_tips %}
+  <h4>⚠ Suggestions to Improve Resume:</h4>
+  <ul>
+    {% for tip in resume_tips %}
+      <li>{{ tip }}</li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p style="color: green;"><strong>Great job!</strong> Your resume structure looks excellent.</p>
+{% endif %}
+
+
+
+    <br>
+    <a href="/">🔁 Analyze Another Resume</a>
+    </div>
+</body>
+</html>

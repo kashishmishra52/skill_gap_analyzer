@@ -1,0 +1,178 @@
+{
+  "data scientist": {
+    "Python": 5,
+    "Machine Learning": 4,
+    "Pandas": 4,
+    "NumPy": 4,
+    "SQL": 3,
+    "Statistics": 3,
+    "Matplotlib": 2
+  },
+  "web developer": {
+    "HTML": 5,
+    "CSS": 5,
+    "JavaScript": 4,
+    "Node.js": 3,
+    "Express.js": 3,
+    "MongoDB": 2,
+    "Git": 3,
+    "React": 3
+  },
+  "android developer": {
+    "Java": 4,
+    "Kotlin": 3,
+    "Android Studio": 4,
+    "XML": 2,
+    "Firebase": 2,
+    "SQLite": 2
+  },
+  "data analyst": {
+    "Excel": 5,
+    "Python": 3,
+    "SQL": 3,
+    "Power BI": 3,
+    "Tableau": 3,
+    "Pandas": 3,
+    "Statistics": 3
+  },
+  "devops engineer": {
+    "Linux": 3,
+    "Docker": 3,
+    "AWS": 3,
+    "CI/CD": 3,
+    "Git": 3
+  },
+  "machine learning engineer": {
+    "Python": 5,
+    "Machine Learning": 4,
+    "TensorFlow": 2,
+    "PyTorch": 2,
+    "SQL": 2,
+    "Data Preprocessing": 3
+  },
+  "full stack developer": {
+    "HTML": 5,
+    "CSS": 5,
+    "JavaScript": 4,
+    "React": 3,
+    "Node.js": 3,
+    "Express.js": 3,
+    "MongoDB": 2,
+    "Git": 3
+  },
+  "product manager": {
+    "Agile Methodology": 3,
+    "Scrum": 3,
+    "Project Management": 3,
+    "Communication": 4,
+    "Market Research": 3,
+    "Data Analysis": 2
+  },
+  "cybersecurity analyst": {
+    "Network Security": 3,
+    "Firewalls": 3,
+    "Penetration Testing": 2,
+    "SIEM": 2,
+    "Cryptography": 2,
+    "Incident Response": 2
+  },
+  "ui/ux designer": {
+    "Figma": 4,
+    "Adobe XD": 4,
+    "User Research": 3,
+    "Wireframing": 3,
+    "Prototyping": 3,
+    "Visual Design": 3
+  },
+  "financial analyst": {
+    "Excel": 5,
+    "Financial Modeling": 4,
+    "Accounting": 3,
+    "SQL": 3,
+    "Data Analysis": 3,
+    "Power BI": 2,
+    "Risk Management": 3
+  },
+  "accountant": {
+    "Accounting": 5,
+    "Tally ERP": 4,
+    "Excel": 4,
+    "GST": 3,
+    "Taxation": 3,
+    "Financial Reporting": 3
+  },
+  "sales executive": {
+    "CRM Software": 4,
+    "Communication": 5,
+    "Negotiation": 4,
+    "Lead Generation": 3,
+    "Presentation Skills": 3,
+    "Customer Service": 3
+  },
+  "digital marketing specialist": {
+    "SEO": 4,
+    "Google Analytics": 4,
+    "Content Marketing": 4,
+    "Social Media Management": 4,
+    "Email Marketing": 3,
+    "PPC Advertising": 3
+  },
+  "human resources specialist": {
+    "Recruitment": 5,
+    "Employee Relations": 4,
+    "HRIS": 3,
+    "Payroll": 3,
+    "Communication": 4,
+    "Performance Management": 3
+  },
+  "customer support executive": {
+    "Communication": 5,
+    "Problem Solving": 4,
+    "CRM Software": 3,
+    "Product Knowledge": 4,
+    "Multitasking": 3,
+    "Patience": 5
+  },
+  "software engineer": {
+    "Programming Fundamentals": 5,
+    "Data Structures": 4,
+    "Algorithms": 4,
+    "Object Oriented Programming": 4,
+    "Python": 3,
+    "Java": 3,
+    "C++": 3,
+    "Git": 3,
+    "SQL": 3,
+    "Problem Solving": 4
+  },
+  "technical fresher": {
+    "Programming Fundamentals": 4,
+    "Data Structures": 3,
+    "Algorithms": 3,
+    "Python": 3,
+    "Java": 3,
+    "C": 2,
+    "Basic SQL": 2,
+    "Git": 2,
+    "Communication Skills": 3
+  },
+  "junior developer": {
+    "HTML": 3,
+    "CSS": 3,
+    "JavaScript": 3,
+    "Python": 3,
+    "Version Control (Git)": 3,
+    "Debugging": 3,
+    "Basic SQL": 2,
+    "Communication Skills": 3
+  },
+  "backend developer fresher": {
+    "Python": 4,
+    "Java": 3,
+    "Node.js": 3,
+    "Databases (SQL/NoSQL)": 3,
+    "REST APIs": 3,
+    "Git": 3,
+    "Linux Basics": 2
+  }
+}
